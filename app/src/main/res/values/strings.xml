@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="str_No">No.</string>
+    <string name="str_Operacion">Operación</string>
+
+
+    // Mensajes
+
+    <string name="str_msjRadio">Escribe el radio</string>
+    <string name="str_msjLado">Escribe el lado</string>
+    <string name="str_msjBase">Escribe la base</string>
+    <string name="str_msjAltura">Escribe la altura</string>
+
+
+    <string name="str_Resultado">RESULTADO</string>
+    <string name="str_OK">OK</string>
+    <string name="str_Area">Área</string>
+    <string name="str_Volumen">Volúmen</string>
+
+    // Activity Principal
+    <string name="str_Areas">AREAS</string>
+    <string name="str_Volumenes">VÓLUMENES</string>
+    <string name="str_OpeRealizadas">OPERACIONES REALIZADAS</string>
+    <string-array name="str_OpcPrincipal">
+        <item>@string/str_Areas</item>
+        <item>@string/str_Volumenes</item>
+        <item>@string/str_OpeRealizadas</item>
+    </string-array>
+
+    // Activity Areas
+    <string name="str_Cuadrado">CUADRADO</string>
+    <string name="str_Rectagulo">RECTÁNGULO</string>
+    <string name="str_Triangulo">TRIÁNGULO</string>
+    <string name="str_Circulo">CÍRCULO</string>
+    <string name="str_Calcular">Calcular</string>
+    <string name="str_Limpiar">LIMPIAR</string>
+
+    <string-array name="str_OpcAreas">
+        <item>@string/str_Cuadrado</item>
+        <item>@string/str_Rectagulo</item>
+        <item>@string/str_Triangulo</item>
+        <item>@string/str_Circulo</item>
+    </string-array>
+
+    // Activity Volumenes
+    <string name="str_Esfera">ESFERA</string>
+    <string name="str_Cilindro">CILINDRO</string>
+    <string name="str_Cono">CONO</string>
+    <string name="str_Cubo">CUBO</string>
+
+
+    <string-array name="str_OpcVolumenes">
+        <item>@string/str_Esfera</item>
+        <item>@string/str_Cilindro</item>
+        <item>@string/str_Cono</item>
+        <item>@string/str_Cubo</item>
+    </string-array>
+
+
+    <string name="str_Datos">Datos</string>
+    <string name="str_Opciones">OPCIONES</string>
+</resources>
+

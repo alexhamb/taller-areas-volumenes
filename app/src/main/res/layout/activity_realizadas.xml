@@ -4,18 +4,12 @@
     android:id="@+id/activity_listado"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="64dp"
-    android:paddingRight="64dp"
-    android:paddingTop="16dp"
     tools:context="com.example.alex6.listview.Realizadas">
 
     <TableLayout
         android:id="@+id/tblRealizadas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_gravity="center"
         android:shrinkColumns="*"
         android:stretchColumns="*">

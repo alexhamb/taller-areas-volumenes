@@ -28,11 +28,22 @@ public class Realizadas extends AppCompatActivity {
             TextView c2 = new TextView(this);
             TextView c3 = new TextView(this);
             TextView c4 = new TextView(this);
+            TextView c5 = new TextView(this);
+            TextView c6 = new TextView(this);
+            TextView c7 = new TextView(this);
+            TextView c8 = new TextView(this);
+            TextView c9 = new TextView(this);
 
             c1.setText("" + i+1);
-            // c3.setText(calculos.get(i).getLado_Cuadrado());
-            //c4.setText(calculos.get(i).getArea_Cuadrado());
-            // c4.setText(calculos.get(i).getArea_Cuadrado());
+            c2.setText(""+calculos.get(i).getArea_Circulo());
+            c3.setText(""+calculos.get(i).getLado_Cuadrado());
+            c4.setText(""+calculos.get(i).getArea_Cuadrado());
+            c5.setText(""+calculos.get(i).getRadio_Circulo());
+            c6.setText(""+calculos.get(i).getAltura_Rectangulo());
+            c7.setText(""+calculos.get(i).getAltura_Triangulo());
+            c8.setText(""+calculos.get(i).getArea_Rectangulo());
+            c9.setText(""+calculos.get(i).getArea_Triangulo());
+
 
             fila.addView(c1);
             fila.addView(c2);

@@ -4,10 +4,6 @@
     android:id="@+id/activity_volumenes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="64dp"
-    android:paddingRight="64dp"
-    android:paddingTop="16dp"
     tools:context="com.example.alex6.listview.Volumenes">
 
     <LinearLayout
@@ -27,8 +23,6 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentTop="true"
             android:id="@+id/lvVol" />
     </LinearLayout>
 

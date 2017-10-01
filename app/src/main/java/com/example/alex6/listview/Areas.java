@@ -45,6 +45,7 @@ public class Areas extends AppCompatActivity {
                     case 2:
                         i = new Intent (Areas.this, areas_triangulo.class);
                         startActivity(i);
+                        break;
 
                     case 3:
                         i = new Intent (Areas.this, areas_Circulo.class);
@@ -63,8 +64,6 @@ public class Areas extends AppCompatActivity {
     }
 
 
-    public static class Datos {
-    }
 }
 
 

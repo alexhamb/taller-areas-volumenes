@@ -12,7 +12,7 @@ public class Calculos {
     private  double radio;
     private  double calculo, area,volumen;
 
-    // ---------------------------------------------------------------------- AREAS
+
     // Cuadrado
     public double getLado_Cuadrado(){
         return lado;

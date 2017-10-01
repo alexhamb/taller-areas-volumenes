@@ -44,6 +44,7 @@ public class Volumenes extends AppCompatActivity {
                     case 2:
                         i = new Intent (Volumenes.this, volumenes_Cono.class);
                         startActivity(i);
+                        break;
 
                     case 3:
                         i = new Intent (Volumenes.this, volumenes_Cubo.class);

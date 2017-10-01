@@ -34,21 +34,27 @@ public class Realizadas extends AppCompatActivity {
             TextView c8 = new TextView(this);
             TextView c9 = new TextView(this);
 
-            c1.setText("" + i+1);
-            c2.setText(""+calculos.get(i).getArea_Circulo());
-            c3.setText(""+calculos.get(i).getLado_Cuadrado());
-            c4.setText(""+calculos.get(i).getArea_Cuadrado());
-            c5.setText(""+calculos.get(i).getRadio_Circulo());
-            c6.setText(""+calculos.get(i).getAltura_Rectangulo());
-            c7.setText(""+calculos.get(i).getAltura_Triangulo());
-            c8.setText(""+calculos.get(i).getArea_Rectangulo());
-            c9.setText(""+calculos.get(i).getArea_Triangulo());
+
+            c1.setText("" + (i + 1));
+            c2.setText(""+calculos.get(i).getBase_Rectangulo());
+            c3.setText(""+calculos.get(i).getBase_Triangulo());
+            c4.setText(""+calculos.get(i).getAltura_Triangulo());
+            c5.setText(""+calculos.get(i).getAltura_Rectangulo());
+            c6.setText(""+calculos.get(i).getLado_Cuadrado());
+            c7.setText(""+calculos.get(i).getRadio_Circulo());
+            c8.setText(""+calculos.get(i).getRadio_Cilindro());
+            c9.setText(""+calculos.get(i).getRadio_Cono());
 
 
             fila.addView(c1);
             fila.addView(c2);
             fila.addView(c3);
             fila.addView(c4);
+            fila.addView(c5);
+            fila.addView(c6);
+            fila.addView(c7);
+            fila.addView(c8);
+            fila.addView(c9);
 
             tabla.addView(fila);
 
